@@ -20,3 +20,8 @@
   - Megszamolas() metódus létrehozása
   - Hány 3-al osztható elem van a tömben
   - Eredmény kiirása a consol-ra
+
+## Eldöntés
+ - Eldontes() metodus létrehozása
+ - Van-e a tömbben 69?
+ - Kiírni, hogy van vagy nincs
