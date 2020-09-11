@@ -15,8 +15,20 @@ namespace programozasi_tetelek
             Osszegzes();
             Megszamolas();
             Eldontes();
+            Kivalasztas();
 
             Console.ReadKey();
+        }
+
+        private static void Kivalasztas()
+        {
+            
+            int i = 1;
+            while (tomb[i] != 50)
+            {
+                i++;
+            }
+            Console.WriteLine("Az 50-es a {0}. helyen van",i+1);
         }
 
         private static void Eldontes()
