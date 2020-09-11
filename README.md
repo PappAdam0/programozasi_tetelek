@@ -14,3 +14,9 @@
    - Összegzés() metódus létrehozása
    - Összegzés tétele a tömbön
    - Eredmény kiirása a consol-ra
+
+
+## Megszamolas
+  - Megszamolas() metódus létrehozása
+  - Hány 3-al osztható elem van a tömben
+  - Eredmény kiirása a consol-ra

@@ -13,8 +13,22 @@ namespace programozasi_tetelek
         {
             TombKiiras();
             Osszegzes();
+            Megszamolas();
 
             Console.ReadKey();
+        }
+
+        private static void Megszamolas()
+        {
+            int harom = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i] % 3 == 0)
+                {
+                    harom++;
+                }
+            }
+            Console.WriteLine("A tömbben {0} szám osztható 3-mmal ",harom);
         }
 
         private static void Osszegzes()
