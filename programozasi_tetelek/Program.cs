@@ -16,8 +16,26 @@ namespace programozasi_tetelek
             Megszamolas();
             Eldontes();
             Kivalasztas();
+            Kereses();
 
             Console.ReadKey();
+        }
+
+        private static void Kereses()
+        {
+            int i = 0;
+            while (i<=tomb.Length && tomb[i] != 50)
+            {
+                i++;
+            }
+            if (i <= tomb.Length)
+            {
+                Console.WriteLine("A keresett szám a {0}. helyen van",i);
+            }
+            else
+            {
+                Console.WriteLine("Nincs a tömbben");
+            }
         }
 
         private static void Kivalasztas()
@@ -28,7 +46,7 @@ namespace programozasi_tetelek
             {
                 i++;
             }
-            Console.WriteLine("Az 50-es a {0}. helyen van",i+1);
+            Console.WriteLine("Az 50-es a {0}. helyen van",i);
         }
 
         private static void Eldontes()
