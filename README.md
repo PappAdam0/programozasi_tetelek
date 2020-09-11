@@ -8,3 +8,9 @@
   - Tömbkiirás() metódus ltérehozása
     - nem ad vissza értéket
     - A tömb elemeit vesszõvel elválasztva egy sorban consol-ra írja.
+
+
+## Összegzés
+   - Összegzés() metódus létrehozása
+   - Összegzés tétele a tömbön
+   - Eredmény kiirása a consol-ra
