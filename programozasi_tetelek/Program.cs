@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 
 namespace programozasi_tetelek
 {
@@ -17,8 +18,22 @@ namespace programozasi_tetelek
             Eldontes();
             Kivalasztas();
             Kereses();
+            maximum();
 
             Console.ReadKey();
+        }
+
+        private static void maximum()
+        {
+            int m = tomb[0];
+            for (int i = 1; i < tomb.Length; i++)
+            {
+                if (tomb[i]>m)
+                {
+                    m = tomb[i];
+                }
+            }
+            Console.WriteLine("Tömb legnagyobb eleme: {0}",m);
         }
 
         private static void Kereses()
